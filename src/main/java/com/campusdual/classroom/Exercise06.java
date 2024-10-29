@@ -10,8 +10,9 @@ public class Exercise06 {
         int month = now.get(Calendar.MONTH) + 1;
         int hour = now.get(Calendar.HOUR_OF_DAY);
 
-        checkSeason(1);
         checkHour(20);
+        checkSeason(1);
+
     }
 
 
